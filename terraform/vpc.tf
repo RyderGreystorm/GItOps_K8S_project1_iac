@@ -1,6 +1,6 @@
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
-  version = "5.1.2"
+  source  = "terraform-aws-modules/vpc/aws"  ##module form hashicorp
+  version = "5.17.0"
 
   name = "vprofile-eks"
 
